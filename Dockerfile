@@ -1,4 +1,4 @@
-FROM fedora # getting webserver from fedora
+FROM fedora
 MAINTAINER saisree "saisree"
 RUN yum install httpd -y
 # this is apache httpd web server
